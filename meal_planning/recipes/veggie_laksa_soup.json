@@ -1,0 +1,70 @@
+{
+    "id": "veggie_laksa_soup",
+    "name": "Veggie Laksa Soup",
+    "serves": 2,
+    "source": "https://www.hellofresh.co.uk/recipes/veggie-laksa-soup-5c0a64d1c445fa6f6d22de42",
+    "ingredients": [
+        {
+            "ingredient": "mushrooms",
+            "variant": "chestnut",
+            "quantity": 1,
+            "quantity_type": "small punnet"
+        },
+        {
+            "ingredient": "pepper",
+            "variant": "green",
+            "quantity": 1
+        },
+        {
+            "ingredient": "lime",
+            "quantity": 1
+        },
+        {
+            "ingredient": "lemongrass",
+            "quantity": 1,
+            "quantity_type": "stick"
+        },
+        {
+            "ingredient": "spice",
+            "variant": "thai",
+            "quantity": 1,
+            "quantity_type": "small pot"
+        },
+        {
+            "ingredient": "ginger",
+            "variant": "easy",
+            "quantity": 0.5,
+            "quantity_type": "sachet"
+        },
+        {
+            "ingredient": "coconut milk",
+            "variant": "light",
+            "quantity": 1,
+            "quantity_type": "large tin"
+        },
+        {
+            "ingredient": "stock powder",
+            "variant": "vegetable",
+            "quantity": 0.5,
+            "quantity_type": "sachet"
+        },
+        {
+            "ingredient": "peanuts",
+            "variant": "salted",
+            "quantity": 1,
+            "quantity_type": "small bag"
+        },
+        {
+            "ingredient": "noodles",
+            "variant": "egg",
+            "quantity": 2,
+            "quantity_type": "nests"
+        },
+        {
+            "ingredient": "sauce",
+            "variant": "soy",
+            "quantity": 1,
+            "quantity_type": "sachet"
+        }
+    ]
+}

@@ -1,3 +1,5 @@
 # Scripts
 
-I made some scripts that are useful to me.
+I made some scripts.
+
+- [Meal Planning](meal_planning/)

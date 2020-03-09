@@ -1,0 +1,66 @@
+{
+    "id": "ginger_beef_noodles",
+    "name": "Ginger Beef Noodles",
+    "serves": 2,
+    "source": "https://www.hellofresh.co.uk/recipes/ginger-beef-noodles-5c62aac8c445fa170835f4d2",
+    "ingredients": [
+        {
+            "ingredient": "beef",
+            "variant": "minced",
+            "quantity": 240.0,
+            "quantity_type": "grams"
+        },
+        {
+            "ingredient": "sauce",
+            "variant": "soy",
+            "quantity": 1.0,
+            "quantity_type": "sachet"
+        },
+        {
+            "ingredient": "lime",
+            "quantity": 1.0
+        },
+        {
+            "ingredient": "garlic",
+            "quantity": 1.0,
+            "quantity_type": "clove"
+        },
+        {
+            "ingredient": "noodles",
+            "variant": "egg",
+            "quantity": 2.0,
+            "quantity_type": "nests"
+        },
+        {
+            "ingredient": "beans",
+            "variant": "green",
+            "quantity": 1.0,
+            "quantity_type": "pack"
+        },
+        {
+            "ingredient": "pepper",
+            "variant": "red",
+            "quantity": 1.0
+        },
+        {
+            "ingredient": "ginger",
+            "quantity": 1.0,
+            "quantity_type": "unit"
+        },
+        {
+            "ingredient": "coriander",
+            "quantity": 1.0,
+            "quantity_type": "bunch"
+        },
+        {
+            "ingredient": "ketjap manis",
+            "quantity": 1.0,
+            "quantity_type": "sachet"
+        },
+        {
+            "ingredient": "sugar",
+            "quantity": 1.0,
+            "quantity_type": "tsp"
+        }
+    ]
+}

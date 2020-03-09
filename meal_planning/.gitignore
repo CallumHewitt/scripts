@@ -1,0 +1,7 @@
+# Python
+__pycache__
+.pyc
+
+# Generated Files
+shopping_list.txt
+meals_spec.json
