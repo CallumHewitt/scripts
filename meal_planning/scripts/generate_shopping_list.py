@@ -5,7 +5,7 @@ import os
 import argparse
 import copy
 from pathlib import Path
-from meallib import Recipe, Ingredient, DEFAULT_MEAL_SPEC, DEFAULT_RECIPE_DIR, DEFAULT_SHOPPING_LIST_OUTPUT, ROOT_DIR
+from meallib import Recipe, Ingredient, load_recipes_by_id, DEFAULT_MEAL_SPEC, DEFAULT_RECIPE_DIR, DEFAULT_SHOPPING_LIST_OUTPUT, ROOT_DIR
 
 
 def generate_shopping_list(meal_spec_path: Path, recipes_path: Path, output_path: Path):
@@ -17,21 +17,6 @@ def generate_shopping_list(meal_spec_path: Path, recipes_path: Path, output_path
     merged_ingredients = merge_ingredients_list(ingredients)
     sorted_ingredients = sorted(merged_ingredients, key=lambda ingredient: ingredient.core)
     save_shopping_list(sorted_ingredients, output_path)
-
-
-def load_recipes_by_id(recipes_path: Path):
-    recipe_paths = [recipe_path for recipe_path in recipes_path.glob('*.json')]
-    recipes = [load_recipe(recipe_path) for recipe_path in recipe_paths]
-    return {recipe.id: recipe for recipe in recipes}
-
-
-def load_recipe(recipe_path: Path):
-    with recipe_path.open() as json_file:
-        recipe_dict = json.loads(json_file.read())
-        ingredients = [Ingredient(ingredient['core'], ingredient.get('variant', ''), ingredient['quantity'], ingredient.get('unit', ''))
-                       for ingredient in recipe_dict['ingredients']
-                       ]
-        return Recipe(recipe_dict['name'], recipe_dict['serves'], recipe_dict['source'], ingredients)
 
 
 def get_specified_meals(recipes_by_id: {}, meal_spec_path: Path):

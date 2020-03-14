@@ -1,16 +1,31 @@
 import re
 from pathlib import Path
 from json import JSONEncoder
+import json
 
 ROOT_DIR = Path(__file__).absolute().parent.parent
 DEFAULT_RECIPE_DIR = ROOT_DIR / 'recipes'
 DEFAULT_SHOPPING_LIST_OUTPUT = ROOT_DIR / 'shopping_list.txt'
-DEFAULT_MEAL_SPEC = ROOT_DIR / 'meals_spec.json'
-DEFAULT_FOOD_TYPES = ROOT_DIR / 'ingredients.json'
-DEFAULT_MEASUREMENTS = ROOT_DIR / 'measurements.json'
+DEFAULT_MEAL_SPEC = ROOT_DIR / 'inputs' / 'meals_spec.json'
+DEFAULT_INGREDIENTS_FILE = ROOT_DIR / 'inputs' / 'ingredients.json'
+DEFAULT_UNITS_FILE = ROOT_DIR / 'inputs' / 'units.json'
 
 def title_string(string: str):
     return f'====== {string} ====='
+
+def load_recipes_by_id(recipes_path: Path):
+    recipe_paths = [recipe_path for recipe_path in recipes_path.glob('*.json')]
+    recipes = [load_recipe(recipe_path) for recipe_path in recipe_paths]
+    return {recipe.id: recipe for recipe in recipes}
+
+
+def load_recipe(recipe_path: Path):
+    with recipe_path.open() as json_file:
+        recipe_dict = json.loads(json_file.read())
+        ingredients = [Ingredient(ingredient['core'], ingredient.get('variant', ''), ingredient['quantity'], ingredient.get('unit', ''))
+                       for ingredient in recipe_dict['ingredients']
+                       ]
+        return Recipe(recipe_dict['name'], recipe_dict['serves'], recipe_dict['source'], ingredients)
 
 class Ingredient:
 

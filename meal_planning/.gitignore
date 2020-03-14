@@ -2,6 +2,6 @@
 __pycache__
 .pyc
 
-# Generated Files
+# Generated Files & Inputs
 shopping_list.txt
-meals_spec.json
+inputs/
