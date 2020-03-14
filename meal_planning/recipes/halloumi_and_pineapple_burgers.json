@@ -1,0 +1,41 @@
+{
+  "id": "halloumi_and_pineapple_burgers",
+  "name": "Halloumi and Pineapple Burgers",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/halloumi-pineapple-burgers-5d31d28feb6ada00137253b4",
+  "ingredients": [
+    {
+      "name": "sweet potato fries",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "pineapple rings",
+      "quantity": 0.5,
+      "unit": "tin"
+    },
+    {
+      "name": "burger buns",
+      "quantity": 2.0
+    },
+    {
+      "name": "lime",
+      "quantity": 1.0
+    },
+    {
+      "name": "halloumi",
+      "quantity": 1.0,
+      "unit": "block"
+    },
+    {
+      "name": "sweet chilli sauce",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    }
+  ]
+}

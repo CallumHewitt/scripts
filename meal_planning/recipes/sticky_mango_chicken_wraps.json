@@ -1,0 +1,67 @@
+{
+  "id": "sticky_mango_chicken_wraps",
+  "name": "Sticky Mango Chicken Wraps",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/sticky-mango-chicken-wraps-5d5eb35a17a0a3000c450f96",
+  "ingredients": [
+    {
+      "name": "potato",
+      "quantity": 1.0
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "lemon",
+      "quantity": 0.5
+    },
+    {
+      "name": "baby gem lettuce",
+      "quantity": 1.0
+    },
+    {
+      "name": "tomato puree",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "mango chutney",
+      "quantity": 40.0,
+      "unit": "grams"
+    },
+    {
+      "name": "mayonnaise",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "echallion shallot",
+      "quantity": 1.0
+    },
+    {
+      "name": "red pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "chicken thigh",
+      "quantity": 280.0,
+      "unit": "grams"
+    },
+    {
+      "name": "north indian style curry powder",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "flour tortillas",
+      "quantity": 4.0
+    }
+  ]
+}

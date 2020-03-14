@@ -1,66 +1,61 @@
 {
-    "id": "ginger_beef_noodles",
-    "name": "Ginger Beef Noodles",
-    "serves": 2,
-    "source": "https://www.hellofresh.co.uk/recipes/ginger-beef-noodles-5c62aac8c445fa170835f4d2",
-    "ingredients": [
-        {
-            "core": "beef",
-            "variant": "minced",
-            "quantity": 240.0,
-            "unit": "grams"
-        },
-        {
-            "core": "sauce",
-            "variant": "soy",
-            "quantity": 1.0,
-            "unit": "sachet"
-        },
-        {
-            "core": "lime",
-            "quantity": 1.0
-        },
-        {
-            "core": "garlic",
-            "quantity": 1.0,
-            "unit": "clove"
-        },
-        {
-            "core": "noodles",
-            "variant": "egg",
-            "quantity": 2.0,
-            "unit": "nests"
-        },
-        {
-            "core": "beans",
-            "variant": "green",
-            "quantity": 1.0,
-            "unit": "pack"
-        },
-        {
-            "core": "pepper",
-            "variant": "red",
-            "quantity": 1.0
-        },
-        {
-            "core": "ginger",
-            "quantity": 1.0,
-            "unit": "unit"
-        },
-        {
-            "core": "coriander",
-            "quantity": 1.0,
-            "unit": "bunch"
-        },
-        {
-            "core": "ketjap manis",
-            "quantity": 1.0,
-            "unit": "sachet"
-        },
-        {
-            "core": "sugar",
-            "quantity": 1.0,
-            "unit": "tsp"
-        }
-    ]
+  "id": "ginger_beef_noodles",
+  "name": "Ginger Beef Noodles",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/ginger-beef-noodles-5c62aac8c445fa170835f4d2",
+  "ingredients": [
+    {
+      "name": "minced beef",
+      "quantity": 240.0,
+      "unit": "grams"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "lime",
+      "quantity": 1.0
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "egg noodles",
+      "quantity": 2.0,
+      "unit": "nests"
+    },
+    {
+      "name": "green beans",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "red pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "ginger",
+      "quantity": 1.0,
+      "unit": "unit"
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "ketjap manis",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "sugar",
+      "quantity": 1.0,
+      "unit": "tsp"
+    }
+  ]
 }

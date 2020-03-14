@@ -4,4 +4,4 @@ __pycache__
 
 # Generated Files & Inputs
 shopping_list.txt
-inputs/
+inputs/meals_spec.json

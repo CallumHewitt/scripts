@@ -1,42 +1,38 @@
 {
-    "id": "spaghetti_puttanesca",
-    "name": "spaghetti puttanesca",
-    "serves": 2,
-    "source": "https://www.hellofresh.co.uk/recipes/spaghetti-puttanesca-5a573cefc28800449e06a6c1",
-    "ingredients": [
-        {
-            "core": "tomatoes",
-            "variant": "baby plum",
-            "quantity": 1,
-            "unit": "small punnet"
-        },
-        {
-            "core": "parsley",
-            "variant": "flat leaf",
-            "quantity": 1,
-            "unit": "bunch"
-        },
-        {
-            "core": "garlic",
-            "quantity": 1,
-            "unit": "clove"
-        },
-        {
-            "core": "sauce",
-            "variant": "puttanesca",
-            "quantity": 1,
-            "unit": "pouch"
-        },
-        {
-            "core": "spaghetti",
-            "quantity": 200,
-            "unit": "grams"
-        },
-        {
-            "core": "cheese",
-            "variant": "italian style hard grated",
-            "quantity": 1,
-            "unit": "pack"
-        }
-    ]
+  "id": "spaghetti_puttanesca",
+  "name": "spaghetti puttanesca",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/spaghetti-puttanesca-5a573cefc28800449e06a6c1",
+  "ingredients": [
+    {
+      "name": "baby plum tomatoes",
+      "quantity": 1,
+      "unit": "small punnet"
+    },
+    {
+      "name": "flat leaf parsley",
+      "quantity": 1,
+      "unit": "bunch"
+    },
+    {
+      "name": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    },
+    {
+      "name": "puttanesca sauce",
+      "quantity": 1,
+      "unit": "pouch"
+    },
+    {
+      "name": "spaghetti",
+      "quantity": 200,
+      "unit": "grams"
+    },
+    {
+      "name": "italian style hard grated cheese",
+      "quantity": 1,
+      "unit": "pack"
+    }
+  ]
 }

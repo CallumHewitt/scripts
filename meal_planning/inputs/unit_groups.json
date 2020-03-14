@@ -1,0 +1,63 @@
+{
+  "block": [
+    "blocks"
+  ],
+  "bunch": [
+    "bunches"
+  ],
+  "carton": [
+    "cartons"
+  ],
+  "clove": [
+    "cloves"
+  ],
+  "grams": [
+    "gram",
+    "g"
+  ],
+  "large tin": [
+    "large tins"
+  ],
+  "nest": [
+    "nests"
+  ],
+  "nests": [],
+  "pack": [
+    "packs"
+  ],
+  "pot": [
+    "pots"
+  ],
+  "pouch": [
+    "pouches"
+  ],
+  "sachet": [
+    "sachets"
+  ],
+  "small bag": [
+    "small bags"
+  ],
+  "small pot": [
+    "small pots"
+  ],
+  "small punnet": [
+    "small punnets"
+  ],
+  "stick": [
+    "sticks"
+  ],
+  "tbsp": [
+    "tablespoons",
+    "tablespoon"
+  ],
+  "tin": [
+    "tins"
+  ],
+  "tsp": [
+    "teaspoon",
+    "teaspoons"
+  ],
+  "unit": [
+    "units"
+  ]
+}

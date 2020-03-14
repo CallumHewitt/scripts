@@ -1,75 +1,70 @@
 {
-    "id": "fried_bean_and_mushroom_tacos",
-    "name": "Fried Bean and Mushroom Tacos",
-    "serves": 2,
-    "source": "https://www.hellofresh.co.uk/recipes/fried-bean-mushroom-taco-5bb7358e30006c530b346f32",
-    "ingredients": [
-        {
-            "core": "onion",
-            "quantity": 1
-        },
-        {
-            "core": "mushrooms",
-            "variant": "closed cup",
-            "quantity": 1,
-            "unit": "small punnet"
-        },
-        {
-            "core": "lime",
-            "quantity": 1
-        },
-        {
-            "core": "beans",
-            "variant": "kidney",
-            "quantity": 1,
-            "unit": "carton"
-        },
-        {
-            "core": "coriander",
-            "quantity": 1,
-            "unit": "bunch"
-        },
-        {
-            "core": "garlic",
-            "quantity": 1,
-            "unit": "clove"
-        },
-        {
-            "core": "tomato puree",
-            "quantity": 1,
-            "unit": "sachet"
-        },
-        {
-            "core": "cummin",
-            "variant": "ground",
-            "quantity": 1,
-            "unit": "small pot"
-        },
-        {
-            "core": "smoked paprika powder",
-            "quantity": 0.5,
-            "unit": "pot"
-        },
-        {
-            "core": "mayonnaise",
-            "quantity": 1,
-            "unit": "sachet"
-        },
-        {
-            "core": "chipotle paste",
-            "quantity": 1,
-            "unit": "sachet"
-        },
-        {
-            "core": "tortillas",
-            "variant": "whole wheat soft",
-            "quantity": 4
-        },
-        {
-            "core": "cheese",
-            "variant": "feta",
-            "quantity": 1,
-            "unit": "block"
-        }
-    ]
+  "id": "fried_bean_and_mushroom_tacos",
+  "name": "Fried Bean and Mushroom Tacos",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/fried-bean-mushroom-taco-5bb7358e30006c530b346f32",
+  "ingredients": [
+    {
+      "name": "onion",
+      "quantity": 1
+    },
+    {
+      "name": "closed cup mushrooms",
+      "quantity": 1,
+      "unit": "small punnet"
+    },
+    {
+      "name": "lime",
+      "quantity": 1
+    },
+    {
+      "name": "kidney beans",
+      "quantity": 1,
+      "unit": "carton"
+    },
+    {
+      "name": "coriander",
+      "quantity": 1,
+      "unit": "bunch"
+    },
+    {
+      "name": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    },
+    {
+      "name": "tomato puree",
+      "quantity": 1,
+      "unit": "sachet"
+    },
+    {
+      "name": "ground cummin",
+      "quantity": 1,
+      "unit": "small pot"
+    },
+    {
+      "name": "smoked paprika powder",
+      "quantity": 0.5,
+      "unit": "pot"
+    },
+    {
+      "name": "mayonnaise",
+      "quantity": 1,
+      "unit": "sachet"
+    },
+    {
+      "name": "chipotle paste",
+      "quantity": 1,
+      "unit": "sachet"
+    },
+    {
+      "name": "whole wheat soft tortillas",
+      "quantity": 4
+    },
+    {
+      "name": "feta cheese",
+      "quantity": 1,
+      "unit": "block"
+    }
+  ]
 }

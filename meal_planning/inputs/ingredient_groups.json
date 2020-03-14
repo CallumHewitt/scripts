@@ -1,0 +1,71 @@
+{
+  "bread": [
+    "burger buns",
+    "flour tortillas",
+    "whole wheat soft tortillas"
+  ],
+  "dairy": [
+    "feta cheese",
+    "halloumi",
+    "italian style hard grated cheese",
+    "light coconut milk"
+  ],
+  "flavours": [
+    "chipotle paste",
+    "easy ginger",
+    "ginger",
+    "ground cummin",
+    "ketjap manis",
+    "lemongrass",
+    "mango chutney",
+    "north indian style curry powder",
+    "olive oil",
+    "salted peanuts",
+    "smoked paprika powder",
+    "soy sauce",
+    "sugar",
+    "thai spice",
+    "vegetable stock powder"
+  ],
+  "fruit": [
+    "baby gem lettuce",
+    "baby plum tomatoes",
+    "lemon",
+    "lime",
+    "pineapple rings"
+  ],
+  "herbs": [
+    "coriander",
+    "flat leaf parsley"
+  ],
+  "meat": [
+    "chicken thigh",
+    "minced beef"
+  ],
+  "pasta": [
+    "egg noodles",
+    "spaghetti"
+  ],
+  "pulses": [
+    "kidney beans"
+  ],
+  "sauces": [
+    "mayonnaise",
+    "puttanesca sauce",
+    "sweet chilli sauce",
+    "tomato puree"
+  ],
+  "uncategorised": [],
+  "vegetables": [
+    "chestnut mushrooms",
+    "closed cup mushrooms",
+    "echallion shallot",
+    "garlic",
+    "green beans",
+    "green pepper",
+    "onion",
+    "potato",
+    "red pepper",
+    "sweet potato fries"
+  ]
+}

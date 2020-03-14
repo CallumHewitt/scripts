@@ -5,23 +5,26 @@ import os
 import argparse
 import copy
 from pathlib import Path
-from meallib import Recipe, Ingredient, load_recipes_by_id, DEFAULT_MEAL_SPEC, DEFAULT_RECIPE_DIR, DEFAULT_SHOPPING_LIST_OUTPUT, ROOT_DIR
+from meallib import Recipe, Ingredient, load_recipes_by_id, title_string, DEFAULT_MEAL_SPEC, DEFAULT_RECIPE_DIR, DEFAULT_INGREDIENTS_FILE, DEFAULT_SHOPPING_LIST_OUTPUT, UNCATEGORISED_KEY, ROOT_DIR
 
 
-def generate_shopping_list(meal_spec_path: Path, recipes_path: Path, output_path: Path):
-    recipes_by_id = load_recipes_by_id(recipes_path)
-    meals = get_specified_meals(recipes_by_id, meal_spec_path)
+def generate_shopping_list(meal_spec_file: Path, recipes_dir: Path, ingredients_file: Path, output_file: Path):
+    recipes_by_id = load_recipes_by_id(recipes_dir)
+    meals = get_specified_meals(recipes_by_id, meal_spec_file)
     ingredients = [
         ingredient for meal in meals for ingredient in meal.ingredients
     ]
     merged_ingredients = merge_ingredients_list(ingredients)
-    sorted_ingredients = sorted(merged_ingredients, key=lambda ingredient: ingredient.core)
-    save_shopping_list(sorted_ingredients, output_path)
+    category_by_ingredient = get_category_by_ingredient(ingredients_file)
+    def key_func(ingredient): return category_by_ingredient.get(ingredient.name, UNCATEGORISED_KEY)
+    ingredients_by_category_iter = itertools.groupby(sorted(merged_ingredients, key=key_func), key_func)
+    ingredients_by_category = {category: list(ingredients) for category, ingredients in ingredients_by_category_iter}
+    save_shopping_list(ingredients_by_category, output_file)
 
 
-def get_specified_meals(recipes_by_id: {}, meal_spec_path: Path):
+def get_specified_meals(recipes_by_id: {}, meal_spec_file: Path):
     meals_spec = []
-    with meal_spec_path.open() as meals_spec_file:
+    with meal_spec_file.open() as meals_spec_file:
         meals_spec = json.loads(meals_spec_file.read())
     meals = []
     for spec in meals_spec:
@@ -50,38 +53,52 @@ def merge_ingredients_list(ingredients: []):
 
 
 def ingredient_merge_key(ingredient):
-    return ingredient.core + ingredient.variant + ingredient.unit
+    return ingredient.name + (ingredient.unit or '')
 
 
 def merge_ingredients(i1, i2):
     return Ingredient(
-        i1.core,
-        i1.variant,
+        i1.name,
         i1.quantity + i2.quantity,
         i1.unit
     )
 
 
-def save_shopping_list(ingredients: [], output_path: str):
-    open(output_path, 'w').close()
-    with open(output_path, 'a') as output_file:
-        for ingredient in ingredients:
-            output_file.write(str(ingredient) + '\n')
+def get_category_by_ingredient(ingredients_file: Path):
+    category_by_ingredient = {}
+    if (ingredients_file.exists()):
+        with ingredients_file.open() as json_file:
+            ingredients_by_category = json.loads(json_file.read() or '{}')
+            for category in ingredients_by_category:
+                for ingredient in ingredients_by_category[category]:
+                    category_by_ingredient[ingredient] = category
+    return category_by_ingredient
+
+
+def save_shopping_list(ingredients_by_category: {}, output_file: str):
+    with output_file.open('w+') as output:
+        for category in ingredients_by_category:
+            output.write(title_string(category) + '\n')
+            for ingredient in ingredients_by_category[category]:
+                output.write(str(ingredient) + '\n')
+            output.write('\n')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate a shopping list for a meal planning specification')
-    parser.add_argument('--spec', '-s', dest='meal_spec_path', type=Path, default=DEFAULT_MEAL_SPEC)
-    parser.add_argument('--recipes_path', '-r', dest='recipes_path', type=Path, default=DEFAULT_RECIPE_DIR)
-    parser.add_argument('--output', '-o', dest='output_path', type=Path, default=DEFAULT_SHOPPING_LIST_OUTPUT)
+    parser.add_argument('--spec', '-s', dest='meal_spec_file', type=Path, default=DEFAULT_MEAL_SPEC)
+    parser.add_argument('--recipes_dir', '-r', dest='recipes_dir', type=Path, default=DEFAULT_RECIPE_DIR)
+    parser.add_argument('--ingredients_file', '-i', dest='ingredients_file', type=Path, default=DEFAULT_INGREDIENTS_FILE)
+    parser.add_argument('--output', '-o', dest='output_file', type=Path, default=DEFAULT_SHOPPING_LIST_OUTPUT)
     args = parser.parse_args()
-    meal_spec_path = args.meal_spec_path
-    recipes_path = args.recipes_path
-    output_path = args.output_path
+    meal_spec_file = args.meal_spec_file
+    recipes_dir = args.recipes_dir
+    ingredients_file = args.ingredients_file
+    output_file = args.output_file
     print(
-        f'Generating shopping list into \'{output_path.relative_to(ROOT_DIR)}\' ' +
-        f'using recipes in \'{recipes_path.relative_to(ROOT_DIR)}\' ' +
-        f'and meal planning specification \'{meal_spec_path.relative_to(ROOT_DIR)}\''
+        f'Generating shopping list into \'{output_file.relative_to(ROOT_DIR)}\' ' +
+        f'using recipes in \'{recipes_dir.relative_to(ROOT_DIR)}\' ' +
+        f'and meal planning specification \'{meal_spec_file.relative_to(ROOT_DIR)}\''
     )
-    generate_shopping_list(meal_spec_path, recipes_path, output_path)
+    generate_shopping_list(meal_spec_file, recipes_dir, ingredients_file, output_file)
     print('Shopping list complete')

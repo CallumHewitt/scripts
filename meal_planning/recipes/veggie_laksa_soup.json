@@ -1,70 +1,61 @@
 {
-    "id": "veggie_laksa_soup",
-    "name": "Veggie Laksa Soup",
-    "serves": 2,
-    "source": "https://www.hellofresh.co.uk/recipes/veggie-laksa-soup-5c0a64d1c445fa6f6d22de42",
-    "ingredients": [
-        {
-            "core": "mushrooms",
-            "variant": "chestnut",
-            "quantity": 1,
-            "unit": "small punnet"
-        },
-        {
-            "core": "pepper",
-            "variant": "green",
-            "quantity": 1
-        },
-        {
-            "core": "lime",
-            "quantity": 1
-        },
-        {
-            "core": "lemongrass",
-            "quantity": 1,
-            "unit": "stick"
-        },
-        {
-            "core": "spice",
-            "variant": "thai",
-            "quantity": 1,
-            "unit": "small pot"
-        },
-        {
-            "core": "ginger",
-            "variant": "easy",
-            "quantity": 0.5,
-            "unit": "sachet"
-        },
-        {
-            "core": "coconut milk",
-            "variant": "light",
-            "quantity": 1,
-            "unit": "large tin"
-        },
-        {
-            "core": "stock powder",
-            "variant": "vegetable",
-            "quantity": 0.5,
-            "unit": "sachet"
-        },
-        {
-            "core": "peanuts",
-            "variant": "salted",
-            "quantity": 1,
-            "unit": "small bag"
-        },
-        {
-            "core": "noodles",
-            "variant": "egg",
-            "quantity": 2,
-            "unit": "nests"
-        },
-        {
-            "core": "sauce",
-            "variant": "soy",
-            "quantity": 1,
-            "unit": "sachet"
-        }
-    ]
+  "id": "veggie_laksa_soup",
+  "name": "Veggie Laksa Soup",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/veggie-laksa-soup-5c0a64d1c445fa6f6d22de42",
+  "ingredients": [
+    {
+      "name": "chestnut mushrooms",
+      "quantity": 1,
+      "unit": "small punnet"
+    },
+    {
+      "name": "green pepper",
+      "quantity": 1
+    },
+    {
+      "name": "lime",
+      "quantity": 1
+    },
+    {
+      "name": "lemongrass",
+      "quantity": 1,
+      "unit": "stick"
+    },
+    {
+      "name": "thai spice",
+      "quantity": 1,
+      "unit": "small pot"
+    },
+    {
+      "name": "easy ginger",
+      "quantity": 0.5,
+      "unit": "sachet"
+    },
+    {
+      "name": "light coconut milk",
+      "quantity": 1,
+      "unit": "large tin"
+    },
+    {
+      "name": "vegetable stock powder",
+      "quantity": 0.5,
+      "unit": "sachet"
+    },
+    {
+      "name": "salted peanuts",
+      "quantity": 1,
+      "unit": "small bag"
+    },
+    {
+      "name": "egg noodles",
+      "quantity": 2,
+      "unit": "nests"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 1,
+      "unit": "sachet"
+    }
+  ]
 }

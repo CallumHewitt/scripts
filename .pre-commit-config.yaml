@@ -1,0 +1,13 @@
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.5.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-yaml
+    -   id: check-json
+    -   id: debug-statements
+    -   id: pretty-format-json
+        args:
+        - --autofix
+        - --no-sort-keys
+    -   id: requirements-txt-fixer
+    -   id: sort-simple-yaml
