@@ -37,7 +37,7 @@ def save_units(units_file: Path, ingredients: {}):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Extracts a list of units and their variations from the recipes and existing units file. Variations to units must be added manually')
+        description='Extracts a list of units from the recipes created. Any units not already categorised in the UNITS_FILE are inserted as display units with no variations.')
     parser.add_argument('--recipes_dir', '-r', dest='recipes_dir', type=Path, default=DEFAULT_RECIPE_DIR)
     parser.add_argument('--units_file', '-u', dest='units_file', type=Path, default=DEFAULT_UNITS_FILE)
     args = parser.parse_args()

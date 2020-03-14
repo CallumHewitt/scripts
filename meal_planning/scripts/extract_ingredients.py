@@ -7,7 +7,8 @@ from meallib import DEFAULT_INGREDIENTS_FILE, DEFAULT_RECIPE_DIR, ROOT_DIR, UNCA
 def extract_ingredients(recipes_dir: Path, ingredients_file: Path):
     recipes_by_id = load_recipes_by_id(recipes_dir)
     ingredients_by_category = read_ingredients_file(ingredients_file)
-    categorised_ingredient_names = set([ingredient for category in ingredients_by_category for ingredient in ingredients_by_category[category]])
+    categorised_ingredient_names = set(
+        [ingredient for category in ingredients_by_category for ingredient in ingredients_by_category[category]])
     for recipe in recipes_by_id.values():
         for ingredient in recipe.ingredients:
             if (ingredient.name not in categorised_ingredient_names):
@@ -32,7 +33,7 @@ def save_ingredients(ingredients_file: Path, ingredients: {}):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Extracts a list of ingredients and their variations from the recipes created. This file can be used to help create recipes faster')
+        description='Extracts a list of ingredients from the recipes created. Any ingredients not already categorised in the INGREDIENTS_FILE are inserted into the uncategorised section.')
     parser.add_argument('--recipes_dir', '-r', dest='recipes_dir', type=Path, default=DEFAULT_RECIPE_DIR)
     parser.add_argument('--ingredients_file', '-i', dest='ingredients_file', type=Path, default=DEFAULT_INGREDIENTS_FILE)
     args = parser.parse_args()
