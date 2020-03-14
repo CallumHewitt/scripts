@@ -114,7 +114,7 @@ def create_ingredient_interactive():
     quantity = safe_float_input('How much of this ingredient is required? (eg. 5/3/100): ')
     unit = input('In what unit? (eg. grams, punnets, bunches, sachets. Skip if not applicable.): ')
     name = input('What is this ingredient? ')
-    return Ingredient(name.lower(), quantity, None if unit.isspace() else unit)
+    return Ingredient(name.lower(), quantity, None if unit.strip() == '' else unit)
 
 
 def safe_float_input(question: str):
@@ -122,7 +122,7 @@ def safe_float_input(question: str):
     number = 0
     while no_number:
         try:
-            number = float(input(f'question.strip() '))
+            number = float(input(f'{question.strip()} '))
             no_number = False
         except (ValueError, NameError):
             print('Please provide a number!')
@@ -186,7 +186,7 @@ if __name__ == '__main__':
     units_file = args.units_file
     ingredients_file = args.ingredients_file
     refresh_inputs = args.refresh_inputs
-    print(f'Adding new recipes to {recipes_dir.relative_to(ROOT_DIR)}. Using units from {units_file.relative_to(ROOT_DIR)}')
+    print(f'Adding new recipes to {recipes_dir.relative_to(ROOT_DIR)}. Using units from {units_file.relative_to(ROOT_DIR)} and known ingredients from {ingredients_file.relative_to(ROOT_DIR)}')
     new_recipe = True
     while(new_recipe):
         recipe = create_recipe(units_file, ingredients_file)

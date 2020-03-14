@@ -1,0 +1,82 @@
+{
+  "id": "spicy_bbq_tofu",
+  "name": "Spicy BBQ Tofu",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/spicy-bbq-tofu-5cf91c70f013530008048317",
+  "ingredients": [
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "tofu",
+      "quantity": 1.0,
+      "unit": "block"
+    },
+    {
+      "name": "ginger puree",
+      "quantity": 0.5,
+      "unit": "sachet"
+    },
+    {
+      "name": "rice vinegar",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "plain flour",
+      "quantity": 8.0,
+      "unit": "grams"
+    },
+    {
+      "name": "siracha",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "sesame seeds",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "lime",
+      "quantity": 0.5
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 2.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "coleslaw mix",
+      "quantity": 1.0,
+      "unit": "bag"
+    },
+    {
+      "name": "BBQ sauce",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "egg noodles",
+      "quantity": 2.0,
+      "unit": "nest"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "sugar",
+      "quantity": 1.0,
+      "unit": "tsp"
+    }
+  ]
+}

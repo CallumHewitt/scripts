@@ -1,0 +1,60 @@
+{
+  "id": "sweet_chilli_beef_noodles",
+  "name": "Sweet Chilli Beef Noodles",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/sweet-chilli-beef-5a7348f7ae08b517d1283ea2",
+  "ingredients": [
+    {
+      "name": "ginger",
+      "quantity": 1.0,
+      "unit": "piece"
+    },
+    {
+      "name": "sweet chilli sauce",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "red pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "spring onion",
+      "quantity": 3.0
+    },
+    {
+      "name": "sesame seeds",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "rump steak strips",
+      "quantity": 280.0,
+      "unit": "grams"
+    },
+    {
+      "name": "carrot",
+      "quantity": 1.0
+    },
+    {
+      "name": "egg noodles",
+      "quantity": 2.0,
+      "unit": "nest"
+    },
+    {
+      "name": "ketjap manis",
+      "quantity": 1.0,
+      "unit": "sachet"
+    }
+  ]
+}

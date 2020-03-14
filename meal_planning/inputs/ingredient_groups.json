@@ -4,22 +4,34 @@
     "flour tortillas",
     "whole wheat soft tortillas"
   ],
+  "carbs": [
+    "brown basmati rice"
+  ],
   "dairy": [
+    "coconut milk",
     "feta cheese",
+    "grated italian style hard cheese",
     "halloumi",
     "italian style hard grated cheese",
-    "light coconut milk"
+    "light coconut milk",
+    "pappardelle"
+  ],
+  "fish": [
+    "king prawns"
   ],
   "flavours": [
+    "cajun spice",
+    "chicken stock powder",
     "chipotle paste",
     "easy ginger",
     "ginger",
     "ground cummin",
     "ketjap manis",
-    "lemongrass",
     "mango chutney",
     "north indian style curry powder",
     "olive oil",
+    "red curry paste",
+    "red wine stock pot",
     "salted peanuts",
     "smoked paprika powder",
     "soy sauce",
@@ -32,31 +44,73 @@
     "baby plum tomatoes",
     "lemon",
     "lime",
-    "pineapple rings"
+    "pineapple rings",
+    "red chilli"
   ],
   "herbs": [
     "coriander",
-    "flat leaf parsley"
+    "dried italian herbs",
+    "flat leaf parsley",
+    "lemongrass"
   ],
   "meat": [
+    "bacon lardons",
     "chicken thigh",
-    "minced beef"
+    "diced chicken thigh",
+    "minced beef",
+    "pork mince",
+    "rump steak strips"
   ],
   "pasta": [
     "egg noodles",
-    "spaghetti"
+    "spaghetti",
+    "wheat rigatoni pasta"
   ],
   "pulses": [
-    "kidney beans"
+    "kidney beans",
+    "sesame seeds"
   ],
   "sauces": [
+    "finely chopped tomatoes",
+    "finely chopped tomatoes with onion and garlic",
     "mayonnaise",
+    "peanut butter",
     "puttanesca sauce",
     "sweet chilli sauce",
-    "tomato puree"
+    "tomato puree",
+    "vegetarian worcester sauce"
   ],
-  "uncategorised": [],
+  "uncategorised": [
+    "BBQ sauce",
+    "basmati rice",
+    "beef mince",
+    "beef steak strips",
+    "carot",
+    "chow mein garnish",
+    "chow mein paste",
+    "clove",
+    "coleslaw mix",
+    "corriander",
+    "ginger puree",
+    "hoisin sauce",
+    "honey",
+    "jasmine rice",
+    "mangetout",
+    "pepper",
+    "plain flour",
+    "pork steaks",
+    "red onion",
+    "rice vinegar",
+    "siracha",
+    "thai spice blend",
+    "tofu",
+    "wheat penne pasta",
+    "worcester sauce"
+  ],
   "vegetables": [
+    "baby corn",
+    "baby spinach",
+    "carrot",
     "chestnut mushrooms",
     "closed cup mushrooms",
     "echallion shallot",
@@ -66,6 +120,7 @@
     "onion",
     "potato",
     "red pepper",
+    "spring onion",
     "sweet potato fries"
   ]
 }

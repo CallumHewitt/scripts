@@ -5,7 +5,7 @@
   "source": "https://www.hellofresh.co.uk/recipes/ginger-beef-noodles-5c62aac8c445fa170835f4d2",
   "ingredients": [
     {
-      "name": "minced beef",
+      "name": "beef mince",
       "quantity": 240.0,
       "unit": "grams"
     },
@@ -26,7 +26,7 @@
     {
       "name": "egg noodles",
       "quantity": 2.0,
-      "unit": "nests"
+      "unit": "nest"
     },
     {
       "name": "green beans",
@@ -40,10 +40,10 @@
     {
       "name": "ginger",
       "quantity": 1.0,
-      "unit": "unit"
+      "unit": "piece"
     },
     {
-      "name": "coriander",
+      "name": "corriander",
       "quantity": 1.0,
       "unit": "bunch"
     },
@@ -51,11 +51,6 @@
       "name": "ketjap manis",
       "quantity": 1.0,
       "unit": "sachet"
-    },
-    {
-      "name": "sugar",
-      "quantity": 1.0,
-      "unit": "tsp"
     }
   ]
 }

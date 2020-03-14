@@ -1,0 +1,55 @@
+{
+  "id": "prawn_thai-style_red_curry",
+  "name": "Prawn Thai-Style Red Curry",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/red-thai-style-prawn-curry-5d1f381698d9be000c400184",
+  "ingredients": [
+    {
+      "name": "carrot",
+      "quantity": 1.0
+    },
+    {
+      "name": "garlic",
+      "quantity": 2.0,
+      "unit": "clove"
+    },
+    {
+      "name": "vegetable stock powder",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "lime",
+      "quantity": 0.5
+    },
+    {
+      "name": "red pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "red curry paste",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": 200.0,
+      "unit": "ml"
+    },
+    {
+      "name": "brown basmati rice",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "king prawns",
+      "quantity": 150.0,
+      "unit": "grams"
+    }
+  ]
+}

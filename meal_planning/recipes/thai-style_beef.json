@@ -1,0 +1,60 @@
+{
+  "id": "thai-style_beef",
+  "name": "Thai-Style Beef",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/asian-style-beef-5c93766fe3f3392f6e588562",
+  "ingredients": [
+    {
+      "name": "red onion",
+      "quantity": 1.0
+    },
+    {
+      "name": "red pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "ginger",
+      "quantity": 0.5,
+      "unit": "piece"
+    },
+    {
+      "name": "beef mince",
+      "quantity": 240.0,
+      "unit": "grams"
+    },
+    {
+      "name": "thai spice blend",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "lime",
+      "quantity": 0.5
+    },
+    {
+      "name": "mangetout",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "jasmine rice",
+      "quantity": 150.0,
+      "unit": "grams"
+    },
+    {
+      "name": "chicken stock powder",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "ketjap manis",
+      "quantity": 1.0,
+      "unit": "sachet"
+    }
+  ]
+}

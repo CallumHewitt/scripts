@@ -1,0 +1,42 @@
+{
+  "id": "chicken_chow_mein",
+  "name": "Chicken Chow Mein",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/chicken-chow-mein-5a3aa4ca2c3e086f55675d52",
+  "ingredients": [
+    {
+      "name": "red pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "egg noodles",
+      "quantity": 2.0,
+      "unit": "nest"
+    },
+    {
+      "name": "diced chicken thigh",
+      "quantity": 280.0,
+      "unit": "grams"
+    },
+    {
+      "name": "green beans",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "ketjap manis",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "chow mein paste",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "chow mein garnish",
+      "quantity": 1.0,
+      "unit": "pot"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "hoisin_beef",
+  "name": "Hoisin Beef",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/15-minute-sticky-beef-with-basmati-rice-5b196cfaae08b56216155912",
+  "ingredients": [
+    {
+      "name": "red onion",
+      "quantity": 1.0
+    },
+    {
+      "name": "pepper",
+      "quantity": 1.0,
+      "unit": "grams"
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "thai spice blend",
+      "quantity": 0.5,
+      "unit": "pot"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "basmati rice",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "hoisin sauce",
+      "quantity": 2.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "beef steak strips",
+      "quantity": 260.0,
+      "unit": "grams"
+    }
+  ]
+}

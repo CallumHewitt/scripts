@@ -1,0 +1,57 @@
+{
+  "id": "superquick_beef_ragu",
+  "name": "Superquick Beef Ragu",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/superquick-beef-ragu-5ce5537d4c232b00117c585d",
+  "ingredients": [
+    {
+      "name": "beef mince",
+      "quantity": 240.0,
+      "unit": "grams"
+    },
+    {
+      "name": "dried italian herbs",
+      "quantity": 0.5,
+      "unit": "pot"
+    },
+    {
+      "name": "finely chopped tomatoes with onion and garlic",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "wheat penne pasta",
+      "quantity": 200.0,
+      "unit": "grams"
+    },
+    {
+      "name": "baby spinach",
+      "quantity": 1.0,
+      "unit": "bag"
+    },
+    {
+      "name": "closed cup mushrooms",
+      "quantity": 1.0,
+      "unit": "punnet"
+    },
+    {
+      "name": "worcester sauce",
+      "quantity": 0.5,
+      "unit": "sachet"
+    },
+    {
+      "name": "red wine stock pot",
+      "quantity": 0.5,
+      "unit": "pot"
+    },
+    {
+      "name": "carrot",
+      "quantity": 1.0
+    },
+    {
+      "name": "grated italian style hard cheese",
+      "quantity": 1.0,
+      "unit": "pack"
+    }
+  ]
+}

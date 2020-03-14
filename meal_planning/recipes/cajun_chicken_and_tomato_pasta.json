@@ -1,0 +1,58 @@
+{
+  "id": "cajun_chicken_and_tomato_pasta",
+  "name": "Cajun Chicken and Tomato Pasta",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/cajun-chicken-and-tomato-pasta-5c35ddf9e3f33930167d90d2",
+  "ingredients": [
+    {
+      "name": "grated italian style hard cheese",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "diced chicken thigh",
+      "quantity": 280.0,
+      "unit": "grams"
+    },
+    {
+      "name": "tomato puree",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "chicken stock powder",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "bacon lardons",
+      "quantity": 60.0,
+      "unit": "grams"
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "cajun spice",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "finely chopped tomatoes",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "wheat rigatoni pasta",
+      "quantity": 200.0,
+      "unit": "grams"
+    },
+    {
+      "name": "flat leaf parsley",
+      "quantity": 1.0,
+      "unit": "bunch"
+    }
+  ]
+}

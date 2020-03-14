@@ -1,0 +1,48 @@
+{
+  "id": "porky_pappardelle",
+  "name": "Porky Pappardelle",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/porky-tagliatelle-5aac0143ae08b53c1125b992",
+  "ingredients": [
+    {
+      "name": "pork mince",
+      "quantity": 250.0,
+      "unit": "grams"
+    },
+    {
+      "name": "pappardelle",
+      "quantity": 200.0,
+      "unit": "grams"
+    },
+    {
+      "name": "finely chopped tomatoes with onion and garlic",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "baby spinach",
+      "quantity": 1.0,
+      "unit": "bag"
+    },
+    {
+      "name": "dried italian herbs",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "vegetarian worcester sauce",
+      "quantity": 0.5,
+      "unit": "sachet"
+    },
+    {
+      "name": "red wine stock pot",
+      "quantity": 1.0,
+      "unit": "unit"
+    },
+    {
+      "name": "grated italian style hard cheese",
+      "quantity": 1.0,
+      "unit": "pack"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "thai_style_sticky_pork",
+  "name": "Thai Style Sticky Pork",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/thai-style-pork-stir-fry-5b642855ae08b557c72ac262",
+  "ingredients": [
+    {
+      "name": "basmati rice",
+      "quantity": 150.0,
+      "unit": "grams"
+    },
+    {
+      "name": "spring onion",
+      "quantity": 2.0
+    },
+    {
+      "name": "lime",
+      "quantity": 1.0
+    },
+    {
+      "name": "ginger puree",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "corriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "carot",
+      "quantity": 1.0
+    },
+    {
+      "name": "salted peanuts",
+      "quantity": 1.0,
+      "unit": "bag"
+    },
+    {
+      "name": "pork steaks",
+      "quantity": 2.0
+    },
+    {
+      "name": "ketjap manis",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "honey",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "clove",
+      "quantity": 1.0,
+      "unit": "grams"
+    }
+  ]
+}

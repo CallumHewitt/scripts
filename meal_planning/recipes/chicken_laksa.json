@@ -1,0 +1,65 @@
+{
+  "id": "chicken_laksa",
+  "name": "Chicken Laksa",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/chicken-laksa-5a4fc2dfc28800347f5464b2",
+  "ingredients": [
+    {
+      "name": "spring onion",
+      "quantity": 1.0
+    },
+    {
+      "name": "coriander",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "red curry paste",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "coconut milk",
+      "quantity": 1.0,
+      "unit": "tin"
+    },
+    {
+      "name": "egg noodles",
+      "quantity": 2.0,
+      "unit": "nests"
+    },
+    {
+      "name": "green beans",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "baby corn",
+      "quantity": 1.0,
+      "unit": "pack"
+    },
+    {
+      "name": "diced chicken thigh",
+      "quantity": 280.0,
+      "unit": "grams"
+    },
+    {
+      "name": "peanut butter",
+      "quantity": 1.0,
+      "unit": "sachet"
+    },
+    {
+      "name": "lemongrass",
+      "quantity": 1.0,
+      "unit": "stick"
+    },
+    {
+      "name": "lime",
+      "quantity": 1.0
+    },
+    {
+      "name": "red chilli",
+      "quantity": 1.0
+    }
+  ]
+}
