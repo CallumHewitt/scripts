@@ -5,38 +5,38 @@
     "source": "https://www.hellofresh.co.uk/recipes/spaghetti-puttanesca-5a573cefc28800449e06a6c1",
     "ingredients": [
         {
-            "ingredient": "tomatoes",
+            "core": "tomatoes",
             "variant": "baby plum",
             "quantity": 1,
-            "quantity_type": "small punnet"
+            "unit": "small punnet"
         },
         {
-            "ingredient": "parsley",
+            "core": "parsley",
             "variant": "flat leaf",
             "quantity": 1,
-            "quantity_type": "bunch"
+            "unit": "bunch"
         },
         {
-            "ingredient": "garlic",
+            "core": "garlic",
             "quantity": 1,
-            "quantity_type": "clove"
+            "unit": "clove"
         },
         {
-            "ingredient": "sauce",
+            "core": "sauce",
             "variant": "puttanesca",
             "quantity": 1,
-            "quantity_type": "pouch"
+            "unit": "pouch"
         },
         {
-            "ingredient": "spaghetti",
+            "core": "spaghetti",
             "quantity": 200,
-            "quantity_type": "grams"
+            "unit": "grams"
         },
         {
-            "ingredient": "cheese",
+            "core": "cheese",
             "variant": "italian style hard grated",
             "quantity": 1,
-            "quantity_type": "pack"
+            "unit": "pack"
         }
     ]
 }

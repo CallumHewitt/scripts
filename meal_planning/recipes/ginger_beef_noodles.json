@@ -5,62 +5,62 @@
     "source": "https://www.hellofresh.co.uk/recipes/ginger-beef-noodles-5c62aac8c445fa170835f4d2",
     "ingredients": [
         {
-            "ingredient": "beef",
+            "core": "beef",
             "variant": "minced",
             "quantity": 240.0,
-            "quantity_type": "grams"
+            "unit": "grams"
         },
         {
-            "ingredient": "sauce",
+            "core": "sauce",
             "variant": "soy",
             "quantity": 1.0,
-            "quantity_type": "sachet"
+            "unit": "sachet"
         },
         {
-            "ingredient": "lime",
+            "core": "lime",
             "quantity": 1.0
         },
         {
-            "ingredient": "garlic",
+            "core": "garlic",
             "quantity": 1.0,
-            "quantity_type": "clove"
+            "unit": "clove"
         },
         {
-            "ingredient": "noodles",
+            "core": "noodles",
             "variant": "egg",
             "quantity": 2.0,
-            "quantity_type": "nests"
+            "unit": "nests"
         },
         {
-            "ingredient": "beans",
+            "core": "beans",
             "variant": "green",
             "quantity": 1.0,
-            "quantity_type": "pack"
+            "unit": "pack"
         },
         {
-            "ingredient": "pepper",
+            "core": "pepper",
             "variant": "red",
             "quantity": 1.0
         },
         {
-            "ingredient": "ginger",
+            "core": "ginger",
             "quantity": 1.0,
-            "quantity_type": "unit"
+            "unit": "unit"
         },
         {
-            "ingredient": "coriander",
+            "core": "coriander",
             "quantity": 1.0,
-            "quantity_type": "bunch"
+            "unit": "bunch"
         },
         {
-            "ingredient": "ketjap manis",
+            "core": "ketjap manis",
             "quantity": 1.0,
-            "quantity_type": "sachet"
+            "unit": "sachet"
         },
         {
-            "ingredient": "sugar",
+            "core": "sugar",
             "quantity": 1.0,
-            "quantity_type": "tsp"
+            "unit": "tsp"
         }
     ]
 }

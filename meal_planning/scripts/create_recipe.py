@@ -2,7 +2,8 @@ import re
 import os
 import argparse
 import json
-from recipe_utils import *
+from meallib import Recipe, Ingredient, DEFAULT_RECIPE_DIR, ROOT_DIR, title_string
+from pathlib import Path
 
 
 def create_recipe():
@@ -10,14 +11,7 @@ def create_recipe():
     print(title_string(name))
     servings = safe_int_input('How many servings does this recipe make? ')
     source = input('Where did you get this recipe come from? (URL, recipe book, etc.): ')
-    id_string = re.sub(r"[^\w\s]", '', name)
-    id_string = re.sub(r"\s+", '_', name).lower()
-    recipe = {}
-    recipe[ID_KEY] = id_string
-    recipe[NAME_KEY] = name
-    recipe[SERVES_KEY] = servings
-    recipe[SOURCE_KEY] = source
-    recipe[INGREDIENTS_KEY] = get_ingredients()
+    recipe = Recipe(name, servings, source, get_ingredients())
     return recipe
 
 
@@ -38,19 +32,23 @@ def get_ingredients():
     new_ingredient = True
     print('Add ingredients:')
     while(new_ingredient):
-        quantity = safe_float_input('How much of this ingredient is required? (eg. 5/3/100): ')
-        quantity_type = input('In what unit? (eg. grams, punnets, bunches, sachets. Skip if not applicable.): ')
-        ingredient_name = input(
-            'What is this ingredient? (Please simplify. eg. If the ingredient is \'plum tomatoes\' respond with \'tomatoes\'): ')
-        variant = input(
-            'What is the variety of this ingredient? (eg. If the ingredient is \'plum tomatoes\' respond with \'plum\'. If the ingredient is generic, skip this question.): ')
-        ingredient = create_ingredient(ingredient_name, variant, quantity, quantity_type)
-        print(ingredient_to_string(ingredient))
+        ingredient = create_ingredient_interactive()
+        print(ingredient)
         correct_ingredient = safe_bool_input('Is the ingredient above correct?')
         if (correct_ingredient):
             ingredients.append(ingredient)
             new_ingredient = safe_bool_input('Would you like to add another ingredient?')
     return ingredients
+
+
+def create_ingredient_interactive():
+    quantity = safe_float_input('How much of this ingredient is required? (eg. 5/3/100): ')
+    unit = input('In what unit? (eg. grams, punnets, bunches, sachets. Skip if not applicable.): ')
+    core_ingredient = input(
+        'What is this ingredient? (Please simplify. eg. If the ingredient is \'plum tomatoes\' respond with \'tomatoes\'): ')
+    variant = input(
+        'What is the variety of this ingredient? (eg. If the ingredient is \'plum tomatoes\' respond with \'plum\'. If the ingredient is generic, skip this question.): ')
+    return Ingredient(core_ingredient.lower(), variant.lower(), quantity, unit.lower())
 
 
 def safe_float_input(question: str):
@@ -63,17 +61,6 @@ def safe_float_input(question: str):
         except (ValueError, NameError):
             print('Please provide a number!')
     return number
-
-
-def create_ingredient(ingredient_name, variant, quantity, quantity_type):
-    ingredient = {}
-    ingredient[INGREDIENT_KEY] = ingredient_name.lower()
-    if (variant != ''):
-        ingredient[VARIANT_KEY] = variant.lower()
-    ingredient[QUANTITY_KEY] = quantity
-    if (quantity_type != ''):
-        ingredient[QUANTITY_TYPE_KEY] = quantity_type.lower()
-    return ingredient
 
 
 def safe_bool_input(question: str):
@@ -92,21 +79,21 @@ def safe_bool_input(question: str):
     return response
 
 
-def save_recipe(recipe: {}, recipes_dir: str):
-    with open(os.path.join(recipes_dir, recipe[ID_KEY] + '.json'), 'w') as output_file:
-        output_file.write(json.dumps(recipe))
+def save_recipe(recipe: Recipe, recipes_dir: Path):
+    with (recipes_dir / (recipe.id + '.json')).open('w') as output_file:
+        output_file.write(json.dumps(recipe.as_dict()))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Add new recipes to your recipes directory')
-    parser.add_argument('--recipes_dir', '-r', dest='recipes_dir', default='recipes')
+    parser.add_argument('--recipes_dir', '-r', dest='recipes_dir', type=Path, default=DEFAULT_RECIPE_DIR)
     args = parser.parse_args()
     recipes_dir = args.recipes_dir
-    print(f'Adding new recipes to {recipes_dir}')
+    print(f'Adding new recipes to {recipes_dir.relative_to(ROOT_DIR)}')
     new_recipe = True
     while(new_recipe):
         recipe = create_recipe()
-        print(recipe_to_string(recipe))
+        print(recipe)
         correct_recipe = safe_bool_input('Is the recipe above correct?')
         if (correct_recipe):
             save_recipe(recipe, recipes_dir)

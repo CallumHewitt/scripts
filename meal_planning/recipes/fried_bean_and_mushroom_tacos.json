@@ -5,71 +5,71 @@
     "source": "https://www.hellofresh.co.uk/recipes/fried-bean-mushroom-taco-5bb7358e30006c530b346f32",
     "ingredients": [
         {
-            "ingredient": "onion",
+            "core": "onion",
             "quantity": 1
         },
         {
-            "ingredient": "mushrooms",
+            "core": "mushrooms",
             "variant": "closed cup",
             "quantity": 1,
-            "quantity_type": "small punnet"
+            "unit": "small punnet"
         },
         {
-            "ingredient": "lime",
+            "core": "lime",
             "quantity": 1
         },
         {
-            "ingredient": "beans",
+            "core": "beans",
             "variant": "kidney",
             "quantity": 1,
-            "quantity_type": "carton"
+            "unit": "carton"
         },
         {
-            "ingredient": "coriander",
+            "core": "coriander",
             "quantity": 1,
-            "quantity_type": "bunch"
+            "unit": "bunch"
         },
         {
-            "ingredient": "garlic",
+            "core": "garlic",
             "quantity": 1,
-            "quantity_type": "clove"
+            "unit": "clove"
         },
         {
-            "ingredient": "tomato puree",
+            "core": "tomato puree",
             "quantity": 1,
-            "quantity_type": "sachet"
+            "unit": "sachet"
         },
         {
-            "ingredient": "cummin",
+            "core": "cummin",
             "variant": "ground",
             "quantity": 1,
-            "quantity_type": "small pot"
+            "unit": "small pot"
         },
         {
-            "ingredient": "smoked paprika powder",
+            "core": "smoked paprika powder",
             "quantity": 0.5,
-            "quantity_type": "pot"
+            "unit": "pot"
         },
         {
-            "ingredient": "mayonnaise",
+            "core": "mayonnaise",
             "quantity": 1,
-            "quantity_type": "sachet"
+            "unit": "sachet"
         },
         {
-            "ingredient": "chipotle paste",
+            "core": "chipotle paste",
             "quantity": 1,
-            "quantity_type": "sachet"
+            "unit": "sachet"
         },
         {
-            "ingredient": "tortillas",
+            "core": "tortillas",
             "variant": "whole wheat soft",
             "quantity": 4
         },
         {
-            "ingredient": "cheese",
+            "core": "cheese",
             "variant": "feta",
             "quantity": 1,
-            "quantity_type": "block"
+            "unit": "block"
         }
     ]
 }
