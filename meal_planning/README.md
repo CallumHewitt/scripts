@@ -1,6 +1,6 @@
 # Meal Planning
 
-Two scripts to help with meal planning.
+Scripts to help with meal planning.
 
 ## Arguments and input files
 
@@ -11,7 +11,7 @@ Two scripts to help with meal planning.
   "id": "just_a_bunch_of_bananas",
   "name": "Just a Bunch of Bananas",
   "serves": 1,
-  "source": "Nature",
+  "source": "Nature;Not the magazine",
   "ingredients": [
     {
       "name": "banana",
