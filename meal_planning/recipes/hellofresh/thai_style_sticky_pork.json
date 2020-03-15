@@ -28,12 +28,12 @@
       "unit": "sachet"
     },
     {
-      "name": "corriander",
+      "name": "coriander",
       "quantity": 1.0,
       "unit": "bunch"
     },
     {
-      "name": "carot",
+      "name": "carrot",
       "quantity": 1.0
     },
     {
@@ -56,9 +56,9 @@
       "unit": "sachet"
     },
     {
-      "name": "clove",
+      "name": "garlic",
       "quantity": 1.0,
-      "unit": "grams"
+      "unit": "clove"
     }
   ]
 }

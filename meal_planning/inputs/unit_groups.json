@@ -1,5 +1,7 @@
 {
-  "bag": [],
+  "bag": [
+    "bags"
+  ],
   "block": [
     "blocks"
   ],
@@ -12,9 +14,12 @@
   "clove": [
     "cloves"
   ],
+  "cup": [
+    "cups"
+  ],
   "grams": [
-    "gram",
-    "g"
+    "g",
+    "gram"
   ],
   "large tin": [
     "large tins"
@@ -36,7 +41,12 @@
   "pouch": [
     "pouches"
   ],
-  "punnet": [],
+  "pound": [
+    "pounds"
+  ],
+  "punnet": [
+    "punnets"
+  ],
   "sachet": [
     "sachets"
   ],

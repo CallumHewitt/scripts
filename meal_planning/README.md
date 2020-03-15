@@ -4,7 +4,7 @@ Two scripts to help with meal planning.
 
 ## Arguments and input files
 
-```RECIPES_DIR``` is where recipe files are stored. These recipes are created by ```create_recipe.py``` and can be read and used by ```generate_shopping_list.py```. This argument defaults to ```./recipes```.
+```RECIPES_DIR``` is where recipe files are stored. These recipes are created by ```create_recipe.py``` and can be read and used by ```generate_shopping_list.py```. This argument defaults to ```./recipes```. Files are stored under subdirectories dictated by the source. If the source is a URL the directory will be named after the first part of the domain name (eg. http://www.google.com -> google). If the source is a book, please provide the page number after the book title by using a semicolon (eg. The Joy of Cooking;25). For any other sources, in general aim to put any information not required for the subdirectory after a semicolon.
 
 ```json
 {

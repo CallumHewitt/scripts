@@ -16,9 +16,14 @@ UNCATEGORISED_KEY = 'uncategorised'
 def title_string(string: str):
     return f'====== {string} ====='
 
+def underscore_text(string: str):
+    string = re.sub(r"[^\w\s]", '', string)
+    string = re.sub(r"\s+", '_', string).lower()
+    return string
+
 
 def load_recipes_by_id(recipes_path: Path):
-    recipe_paths = [recipe_path for recipe_path in recipes_path.glob('*.json')]
+    recipe_paths = [recipe_path for recipe_path in recipes_path.glob('**/*.json')]
     recipes = [load_recipe(recipe_path) for recipe_path in recipe_paths]
     return {recipe.id: recipe for recipe in recipes}
 
@@ -57,9 +62,7 @@ class Ingredient:
 class Recipe:
 
     def __init__(self, name: str, serves: int, source: str, ingredients: [Ingredient]):
-        id_string = re.sub(r"[^\w\s]", '', name)
-        id_string = re.sub(r"\s+", '_', name).lower()
-        self.id = id_string
+        self.id = underscore_text(name)
         self.name = name
         self.serves = serves
         self.source = source

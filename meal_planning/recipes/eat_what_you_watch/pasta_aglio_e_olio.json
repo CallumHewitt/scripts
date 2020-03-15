@@ -1,0 +1,37 @@
+{
+  "id": "pasta_aglio_e_olio",
+  "name": "Pasta Aglio e Olio",
+  "serves": 2,
+  "source": "Eat What You Watch;Andrew Rea;page 84",
+  "ingredients": [
+    {
+      "name": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "name": "garlic",
+      "quantity": 8.0,
+      "unit": "clove"
+    },
+    {
+      "name": "red pepper flakes",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "dried linguine",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "name": "lemon",
+      "quantity": 0.5
+    },
+    {
+      "name": "finely chopped parsley",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ]
+}

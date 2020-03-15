@@ -1,0 +1,74 @@
+{
+  "id": "simple_spaghetti",
+  "name": "Simple Spaghetti",
+  "serves": 2,
+  "source": "https://www.hellofresh.co.uk/recipes/simple-spaghetti-5a800383ae08b57ccc18f702",
+  "ingredients": [
+    {
+      "name": "fennel",
+      "quantity": 1.0
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "red bullet chilli",
+      "quantity": 0.5
+    },
+    {
+      "name": "wheat spaghetti",
+      "quantity": 200.0,
+      "unit": "grams"
+    },
+    {
+      "name": "baby spinach",
+      "quantity": 1.0,
+      "unit": "bag"
+    },
+    {
+      "name": "italian style hard cheese",
+      "quantity": 40.0,
+      "unit": "grams"
+    },
+    {
+      "name": "steve's leaves peashoots",
+      "quantity": 1.0,
+      "unit": "bag"
+    },
+    {
+      "name": "echalion shallot",
+      "quantity": 1.0
+    },
+    {
+      "name": "lemon",
+      "quantity": 0.5
+    },
+    {
+      "name": "flat leaf parsley",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "pistachios",
+      "quantity": 25.0,
+      "unit": "grams"
+    },
+    {
+      "name": "ricotta cheese",
+      "quantity": 200.0,
+      "unit": "grams"
+    },
+    {
+      "name": "balsamic vinegar",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    }
+  ]
+}

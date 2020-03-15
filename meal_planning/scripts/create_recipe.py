@@ -2,11 +2,11 @@ import re
 import os
 import argparse
 import json
-from meallib import Recipe, Ingredient, DEFAULT_RECIPE_DIR, DEFAULT_UNITS_FILE, DEFAULT_INGREDIENTS_FILE, ROOT_DIR, title_string
+from meallib import Recipe, Ingredient, DEFAULT_RECIPE_DIR, DEFAULT_UNITS_FILE, DEFAULT_INGREDIENTS_FILE, ROOT_DIR, title_string, underscore_text
 from pathlib import Path
 from extract_ingredients import extract_ingredients
 from extract_units import extract_units
-
+from urllib.parse import urlparse
 
 def create_recipe(units_file: Path, ingredients_file: Path):
     name = input('What is this recipe called? ')
@@ -171,8 +171,26 @@ def safe_bool_input(question: str):
 
 
 def save_recipe(recipe: Recipe, recipes_dir: Path):
-    with (recipes_dir / (recipe.id + '.json')).open('w') as output_file:
+    recipe_subdirectory = recipes_dir / get_subdirectory_for_recipe(recipe)
+    recipe_subdirectory.mkdir(exist_ok=True)
+    with (recipe_subdirectory / (recipe.id + '.json')).open('w+') as output_file:
         output_file.write(json.dumps(recipe.as_dict()))
+
+def get_subdirectory_for_recipe(recipe: Recipe):
+    sub_dir = 'other'
+    if (is_url(recipe.source)):
+        sub_dir = next(urlpart for urlpart in urlparse(recipe.source).netloc.split('.') if urlpart not in ['www'])
+    else:
+        name = recipe.source.split(';')[0]
+        sub_dir = underscore_text(name)
+    return sub_dir
+
+def is_url(string):
+    try:
+        result = urlparse(string)
+        return all([result.scheme, result.netloc, result.path])
+    except:
+        return False
 
 
 if __name__ == '__main__':
