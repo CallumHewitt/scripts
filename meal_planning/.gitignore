@@ -1,6 +1,5 @@
-# Python
-__pycache__
-.pyc
+# Python Files
+__pycache__/
 
 # Generated Files & Inputs
 shopping_list.txt

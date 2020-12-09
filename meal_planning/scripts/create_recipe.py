@@ -82,10 +82,10 @@ def create_ingredients(unit_name_by_variant: {}, known_ingredient_names: []):
 
 
 def create_ingredient(unit_name_by_variant: {}, known_ingredient_names: []):
-    ingredient_text = input('Describe the ingredient (<quantity?> <unit?> <name>): ')
+    ingredient_text = input('Describe the ingredient (<quantity?> <unit?> <name>): ').lower()
     split_text = ingredient_text.strip().split()
     ingredient = None
-    if (ingredient_text.lower() == 'done'):
+    if (ingredient_text == 'done'):
         ingredient = None
     elif (len(split_text) < 1):
         print('Ingredient text could not be parsed.')

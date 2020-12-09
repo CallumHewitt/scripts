@@ -1,0 +1,77 @@
+{
+  "id": "hiroshima_okonomiyaki",
+  "name": "Hiroshima Okonomiyaki",
+  "serves": 2,
+  "source": "https://www.justonecookbook.com/hiroshima-okonomiyaki/",
+  "ingredients": [
+    {
+      "name": "mirin",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "all-purpose flour",
+      "quantity": 100.0,
+      "unit": "grams"
+    },
+    {
+      "name": "cabbage",
+      "quantity": 240.0,
+      "unit": "grams"
+    },
+    {
+      "name": "green onion",
+      "quantity": 1.0
+    },
+    {
+      "name": "katsuobushi (dried bonito flakes)",
+      "quantity": 2.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "tenkasu/agedama (tempura scraps)",
+      "quantity": 4.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "bean sprouts",
+      "quantity": 60.0,
+      "unit": "grams"
+    },
+    {
+      "name": "tororo kombu",
+      "quantity": 2.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "sliced pork belly",
+      "quantity": 6.0,
+      "unit": "slices"
+    },
+    {
+      "name": "yakisoba noodles",
+      "quantity": 2.0,
+      "unit": "nest"
+    },
+    {
+      "name": "large eggs",
+      "quantity": 2.0
+    },
+    {
+      "name": "okonomiyaki sauce",
+      "quantity": 1.0
+    },
+    {
+      "name": "japanese mayonaise",
+      "quantity": 1.0
+    },
+    {
+      "name": "aonori (dried green seaweed)",
+      "quantity": 1.0
+    },
+    {
+      "name": "beni shoga (pickled red ginger)",
+      "quantity": 1.0
+    }
+  ]
+}

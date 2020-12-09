@@ -1,0 +1,84 @@
+{
+  "id": "ginger_pork_onigirazu",
+  "name": "Ginger Pork Onigirazu",
+  "serves": 1,
+  "source": "https://www.justonecookbook.com/ginger-pork-onigirazu/",
+  "ingredients": [
+    {
+      "name": "nori",
+      "quantity": 1.0,
+      "unit": "sheet"
+    },
+    {
+      "name": "japanese short-grain rice",
+      "quantity": 1.0,
+      "unit": "cup"
+    },
+    {
+      "name": "kosher/sea salt",
+      "quantity": 1.0
+    },
+    {
+      "name": "lettuce",
+      "quantity": 1.0,
+      "unit": "leaf"
+    },
+    {
+      "name": "japanese mayonaise",
+      "quantity": 1.0
+    },
+    {
+      "name": "thinly sliced pork loin",
+      "quantity": 0.5,
+      "unit": "lb"
+    },
+    {
+      "name": "onion",
+      "quantity": 0.25
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "ginger",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "black pepper",
+      "quantity": 1.0
+    },
+    {
+      "name": "neutral oil",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "onion",
+      "quantity": 1.0,
+      "unit": "grams"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 2.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "mirin",
+      "quantity": 2.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "sake",
+      "quantity": 2.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "sugar",
+      "quantity": 1.0,
+      "unit": "tsp"
+    }
+  ]
+}

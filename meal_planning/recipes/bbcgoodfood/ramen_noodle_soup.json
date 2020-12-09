@@ -1,0 +1,86 @@
+{
+  "id": "ramen_noodle_soup",
+  "name": "ramen_noodle_soup",
+  "serves": 4,
+  "source": "https://www.bbcgoodfood.com/recipes/japanese-ramen-noodle-soup",
+  "ingredients": [
+    {
+      "name": "chicken stock",
+      "quantity": 700.0,
+      "unit": "ml"
+    },
+    {
+      "name": "garlic",
+      "quantity": 3.0,
+      "unit": "clove"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 4.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "worcestershire sauce",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "ginger",
+      "quantity": 1.0,
+      "unit": "thumb-sized piece"
+    },
+    {
+      "name": "chinese five spice",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "name": "chilli powder",
+      "quantity": 1.0,
+      "unit": "pinch"
+    },
+    {
+      "name": "white sugar",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "ramen noodles",
+      "quantity": 375.0,
+      "unit": "grams"
+    },
+    {
+      "name": "cooked pork/chicken",
+      "quantity": 400.0,
+      "unit": "grams"
+    },
+    {
+      "name": "sesame oil",
+      "quantity": 2.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "baby spinach",
+      "quantity": 100.0,
+      "unit": "grams"
+    },
+    {
+      "name": "eggs",
+      "quantity": 4.0
+    },
+    {
+      "name": "dried nori",
+      "quantity": 1.0,
+      "unit": "sheet"
+    },
+    {
+      "name": "spring onions",
+      "quantity": 1.0,
+      "unit": "bunch"
+    },
+    {
+      "name": "sesame seeds",
+      "quantity": 1.0
+    }
+  ]
+}

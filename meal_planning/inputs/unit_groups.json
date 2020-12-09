@@ -18,12 +18,14 @@
     "cups"
   ],
   "grams": [
-    "g",
-    "gram"
+    "gram",
+    "g"
   ],
   "large tin": [
     "large tins"
   ],
+  "lb": [],
+  "leaf": [],
   "millilitres": [
     "ml"
   ],
@@ -35,6 +37,7 @@
     "packs"
   ],
   "piece": [],
+  "pinch": [],
   "pot": [
     "pots"
   ],
@@ -50,6 +53,8 @@
   "sachet": [
     "sachets"
   ],
+  "sheet": [],
+  "slices": [],
   "small bag": [
     "small bags"
   ],
@@ -63,9 +68,10 @@
     "sticks"
   ],
   "tbsp": [
-    "tablespoons",
-    "tablespoon"
+    "tablespoon",
+    "tablespoons"
   ],
+  "thumb-sized piece": [],
   "tin": [
     "tins"
   ],

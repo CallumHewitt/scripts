@@ -10,13 +10,17 @@
     "dried linguine",
     "egg noodles",
     "jasmine rice",
+    "plain flour",
+    "ramen noodles",
     "spaghetti",
+    "tofu",
     "wheat penne pasta",
     "wheat rigatoni pasta",
     "wheat spaghetti"
   ],
-  "dairy": [
+  "eggs & dairy": [
     "coconut milk",
+    "eggs",
     "feta cheese",
     "grated italian style hard cheese",
     "halloumi",
@@ -31,8 +35,11 @@
   ],
   "flavours": [
     "cajun spice",
+    "chicken stock",
     "chicken stock powder",
+    "chilli powder",
     "chipotle paste",
+    "dried nori",
     "easy ginger",
     "ginger",
     "ginger puree",
@@ -48,13 +55,15 @@
     "red wine stock pot",
     "rice vinegar",
     "salted peanuts",
+    "sesame oil",
     "siracha",
     "smoked paprika powder",
     "soy sauce",
     "sugar",
     "thai spice",
     "thai spice blend",
-    "vegetable stock powder"
+    "vegetable stock powder",
+    "white sugar"
   ],
   "fruit": [
     "baby gem lettuce",
@@ -76,6 +85,7 @@
     "beef mince",
     "beef steak strips",
     "chicken thigh",
+    "cooked pork/chicken",
     "diced chicken thigh",
     "minced beef",
     "pork mince",
@@ -88,6 +98,8 @@
   ],
   "sauces": [
     "BBQ sauce",
+    "Chinese five spice",
+    "Worcestershire sauce",
     "balsamic vinegar",
     "chow mein garnish",
     "chow mein paste",
@@ -103,9 +115,29 @@
     "worcester sauce"
   ],
   "uncategorised": [
-    "pepper",
-    "plain flour",
-    "tofu"
+    "all-purpose flour",
+    "aonori (dried green seaweed)",
+    "bean sprouts",
+    "beni shoga (pickled red ginger)",
+    "black pepper",
+    "cabbage",
+    "green onion",
+    "japanese mayonaise",
+    "japanese short-grain rice",
+    "katsuobushi (dried bonito flakes)",
+    "kosher/sea salt",
+    "large eggs",
+    "lettuce",
+    "mirin",
+    "neutral oil",
+    "nori",
+    "okonomiyaki sauce",
+    "sake",
+    "sliced pork belly",
+    "tenkasu/agedama (tempura scraps)",
+    "thinly sliced pork loin",
+    "tororo kombu",
+    "yakisoba noodles"
   ],
   "vegetables": [
     "baby corn",
@@ -121,11 +153,13 @@
     "green pepper",
     "mangetout",
     "onion",
+    "pepper",
     "potato",
     "red bullet chilli",
     "red onion",
     "red pepper",
     "spring onion",
+    "spring onions",
     "steve's leaves peashoots",
     "sweet potato fries"
   ]
