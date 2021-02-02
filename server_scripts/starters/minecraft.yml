@@ -1,0 +1,13 @@
+packages:
+  - default-jdk
+  - screen
+  - wget
+commands:
+  - mkdir minecraft
+  - wget -O minecraft/server.jar https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+  - echo "java -Xmx1024M -Xms1024M -jar server.jar nogui" > minecraft/start.sh
+  - chmod +x minecraft/start.sh
+  - echo "eula=true" > minecraft/eula.txt
+  - rsync --archive --chown=$SUDO_USER:$SUDO_USER minecraft /home/$SUDO_USER
+  - rm -r minecraft
+  - ufw allow 25565

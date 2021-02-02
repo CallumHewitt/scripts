@@ -1,0 +1,7 @@
+*.ppk
+*.pem
+*.txt
+*.yml
+!starters/*.yml
+!config_template.yml
+__pycache__/

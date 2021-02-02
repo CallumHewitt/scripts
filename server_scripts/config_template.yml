@@ -1,0 +1,12 @@
+hostname: '000.000.000.000'
+ssh:
+  key_location: 'private_key.txt'
+  key_passphrase: ''
+sudo:
+  username: ''
+  password: ''
+ufw:
+  incoming: 'deny'
+  outgoing: 'deny'
+starters:
+  - 
